@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stdjob">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".com.example.stdjob.signup.SignupPage6Activity" android:label=""></activity>
+        <activity android:name=".com.example.stdjob.signup.SignupPage5Activity" android:label=""/>
+        <activity android:name=".com.example.stdjob.signup.SignupPage4Activity" android:label=""/>
+        <activity android:name=".com.example.stdjob.signup.SignupPage3Activity" android:label=""/>
+        <activity android:name=".com.example.stdjob.signup.SignupPage2Activity" android:label=""/>
+        <activity
+            android:name=".com.example.stdjob.signup.SignupActivity"
+            android:label="" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateComapnyInfo"
+            android:label="" />
+        <activity
+            android:name=".JobDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SupportActivity"
+            android:label="" />
+        <activity
+            android:name=".ToturialPlansActivity"
+            android:label="" />
+        <activity
+            android:name=".UpdateTimeLineActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateInfoActivity"
+            android:label="" />
+        <activity android:name=".StartActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

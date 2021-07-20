@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.example.stdjob.signup.SignupPage2Activity">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="من  ......"
+        android:id="@+id/txt3"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="right"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@+id/txt3">
+
+        <RadioButton
+            android:id="@+id/rdb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/buttonpadding"
+            android:layoutDirection="rtl"
+            android:text="بالای ۱۸ سال سن دارم"
+            android:gravity="right|center_vertical"
+            android:padding="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rdb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/buttonpadding"
+            android:layoutDirection="rtl"
+            android:text="زیر ۱۸ سال سن دارم"
+            android:gravity="right|center_vertical"
+            android:padding="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/buttonpadding2"
+        android:text="بعدی"
+        android:visibility="invisible"
+        android:textColor="@color/icons"
+        android:onClick="nextactivity3"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:textColor="#303F9F"
+        android:visibility="gone"
+        android:id="@+id/message_sender"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:visibility="gone"
+        android:textColor="#00796B"
+        android:id="@+id/message_reciever"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="8dp"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:id="@+id/response_main_layout"
+    android:layout_height="wrap_content">
+
+
+    <TableLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TableRow
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/response_title"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_column="2"
+            android:text="@string/title"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </TableRow>
+
+
+        <TableRow
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_column="1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/response_price"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textColor="@android:color/white"
+                android:layout_column="2"
+                android:text="@string/price"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_column="1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/response_requester"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_column="2"
+                android:text="@string/requester"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                />
+        </TableRow>
+    </TableLayout>
+</androidx.cardview.widget.CardView>

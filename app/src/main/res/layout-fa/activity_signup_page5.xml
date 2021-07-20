@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.example.stdjob.signup.SignupPage5Activity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ایمیل خود را وارد کنید "
+        android:id="@+id/txt6"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="right" />
+
+    <EditText
+        android:id="@+id/edtxt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt6"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/buttonpadding"
+        android:inputType="textWebEmailAddress"
+        android:hint="ایمیل..."
+        android:gravity="right|center_vertical"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/edtxt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="پسورد"
+        android:layout_below="@id/edtxt3"
+        android:inputType="textPassword"
+        android:paddingTop="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/buttonpadding"
+        android:gravity="right|center_vertical"
+        android:padding="20dp"/>
+
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/edtxt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layoutDirection="rtl">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_rules"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_plan"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/alam4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:layout_below="@+id/rg3"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/buttonpadding2"
+        android:text="بعدی"
+        android:textColor="@color/icons"
+        android:onClick="nextactivity5"
+        android:padding="20dp"
+        android:gravity="center"/>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Job For Students</string>
+
+
+    <string name="start_intro">        به برنامه کاریاب ویژه دانشجویان خوش آمدید. </string>
+    <string name="start_button_sign_up">دانشجو هستید؟ ثبت نام کنید</string>
+    <string name="start_button_sign_in">دانشجو هستید؟ وارد شوید</string>
+    <string name="start_company">شرکت متقاضی انجام کار هستید</string>
+
+
+    <string name="user_info">نمایش و ویرایش اطلاعات کاربر</string>
+    <string name="user_interest">لیست علاقه مندی ها</string>
+    <string name="user_tileline">برنامه زمانی</string>
+    <string name="user_for_plan">برنامه آموزشی</string>
+    <string name="user_message">پیام ها</string>
+    <string name="user_settings">تنظیمات</string>
+    <string name="user_exit">خروج</string>
+
+
+    <string-array name="sudent_tabs">
+        <item>پروفایل</item>
+        <item>مسئولیت ها</item>
+        <item>سابقه کاری</item>
+        <item>کار ها</item>
+    </string-array>
+
+    <string-array name="company_tabs">
+        <item>پروفایل</item>
+        <item>تاریخچه</item>
+        <item>درخواست کار</item>
+        <item>برنامه آموزشی</item>
+    </string-array>
+
+
+    <string name="user_info_edit_t1">اطلاعات شخصی</string>
+    <string name="user_info_edit_t2"> اطلاعات حساب کاربری </string>
+
+    <string name="company_info_edit_t1">اطلاعات شرکت</string>
+    <string name="company_info_edit_t2"> اطلاعات حساب کاربری </string>
+
+    <string name="student_key_name">نام</string>
+    <string name="student_key_lastname">نام خانوادگی</string>
+    <string name="student_key_email">ایمیل</string>
+    <string name="student_key_phone">شماره تلفن</string>
+    <string name="student_key_sex">جنسیت</string>
+    <string name="student_key_username">نام کاربری</string>
+    <string name="student_key_passwd">رمز عبور</string>
+
+
+    <string name="comapany_key_name">نام شرکت</string>
+    <string name="company_key_address">آدرس شرکت</string>
+    <string name="company_key_phone">‌>شماره تلفن</string>
+    <string name="company_key_email">ایمیل</string>
+    <string name="company_key_username">نام کاربری</string>
+    <string name="company_key_passwd">رمز عبور</string>
+
+
+    <string name="gender_t1">مرد</string>
+    <string name="gender_t2">زن</string>
+
+    <string name="save">ذخیره</string>
+    <string name="interest">علاقه مندی ها</string>
+
+    <string-array name="interest_list">
+        <item>Android Programming</item>
+        <item>Php</item>
+        <item>ios Programming</item>
+        <item>Html and Css</item>
+        <item>Ui and Ux</item>
+        <item>C#</item>
+        <item>Asp.Net</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Security</item>
+    </string-array>
+
+    <string name="delete">لغو درخواست</string>
+    <string name="add">اضافه</string>
+    <string name="fromHour">از ساعت</string>
+    <string name="toHour">تا ساعت</string>
+
+    <string name="tutorial_plan_text">در حال حاضر برنامه آموزشی وجود ندارد.</string>
+
+    <string name="send">ارسال</string>
+    <string name="refresh">نوسازی</string>
+
+    <string name="ask_for_plan">آیا مایل به دریافت برنامه آموزشی هستید؟</string>
+    <string name="ask_for_plan_company">آیا مایل به برگزاری دوره های‌ آموزشی هستند؟</string>
+
+    <string name="user_account">حساب کاربری</string>
+    <string name="search">جستجو</string>
+
+    <string name="title_essentials">ملزومات</string>
+    <string name="title_description">توضیحات</string>
+    <string name="title_request">درخواست توسط</string>
+    <string name="button_request_job">درخواست کار</string>
+    <string name="price">قیمت کل</string>
+
+    <string name="empy_history">در حال حاضر تاریخچه کاری شما خالی است.</string>
+    <string name="empy_history_company">تا کنون کاری را ثب نکرده اید.</string>
+
+    <string name="empty_respn">درحال حاضر کاری در دست انجام ندارید.</string>
+    <string name="title">عنوان</string>
+    <string name="requester">متقاضی</string>
+    <string name="rate">امتیاز شما</string>
+
+    <string name="rate_message">به این پست امتیازی داده نشده.</string>
+
+
+    <string name="job_req_title">عنوان کاری</string>
+    <string name="job_req_price">قیمت(به تومان)</string>
+    <string name="job_req_essen">ملزومات</string>
+    <string name="job_req_desc">توضیحات</string>
+    <string name="job_req_date">زمان انجام</string>
+    <string name="job_req_time">ساعات کاری</string>
+    <string name="student_id">کد انجام دهنده</string>
+    <string name="job_empty_hour">تاکنون زمانی را انتخاب نکرده اید.</string>
+
+    <string name="ok">باشه</string>
+
+    <string name="title_error_request">شماباید عنوان کار درخواستی را وارد نمایید</string>
+    <string name="price_error_request">شما باید مبلغ قابل پرداخت برای کار درخواستی را وارد نمایید</string>
+    <string name="date_error_request">شما باید روز کار درخواستی را مشخص کنید</string>
+    <string name="time_error_request">شما باید حداقل یک بازه زمانی را برای  کار مورد نظر مشخص نمایید</string>
+
+
+    <string name="pay">پرداخت</string>
+    <string name="rat_the_job">امتیاز بدهید</string>
+    <string name="url">آدرس صفحه معرفی</string>
+
+    <string name="login">ورود به حساب کاربری</string>
+    <string name="login_username">نام کاربری</string>
+    <string name="login_password">رمز عبور</string>
+    <string name="login_btn">ورود</string>
+
+    <string name="username_error_message">نام کاربری خود را وارد کنید</string>
+    <string name="password_error_message">کلمه عبور خود را وارد کنید</string>
+    <string name="wrong_login_message">نام کاربری و یا کلمه عبور اشتباه است.</string>
+
+    <string name="student_sigup_message">خواهان دریافت  برنامه کلاس های اموزشی هستم</string>
+    ‌<string name="company_signup_message">خواهان برگزاری کلاس های آموزشی هستم</string>
+    <string name="signup_rules">قوانین را در سایت مطالعه کرده ام</string>
+
+    <string name="enable_pannel">این قسمت برای شما غیر فعال است.لطفا در تنظیمات خود آن را فعال کنید.</string>
+</resources>

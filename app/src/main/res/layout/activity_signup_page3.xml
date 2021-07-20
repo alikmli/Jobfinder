@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.example.stdjob.signup.SignupPage3Activity">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="نام شرکت را وارد کنید "
+        android:id="@+id/txt5"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="viewEnd"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/edtxt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt5"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/buttonpadding"
+        android:gravity="right|center_vertical"
+        android:padding="20dp"
+        android:hint="نام شرکت..." />
+
+    <TextView
+        android:id="@+id/alarm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:layout_below="@+id/edtxt6"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/buttonpadding2"
+        android:text="بعدی"
+        android:visibility="visible"
+        android:textColor="@color/icons"
+        android:onClick="nextactivity1"
+        android:padding="20dp"
+        android:gravity="center"/>
+</RelativeLayout>

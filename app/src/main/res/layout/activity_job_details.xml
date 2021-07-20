@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<androidx.cardview.widget.CardView
+    android:elevation="8dp"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:padding="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_layout_intro">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:id="@+id/title_paper"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/time_price_paper"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:id="@+id/time_paper"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle_for_layout"
+            android:layout_below="@id/title_layout_intro"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/essential_paper">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/title_essentials"
+                android:paddingLeft="20dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+               />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="40dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="40dp"
+                android:textStyle="bold"
+                android:id="@+id/essential_ex_paper"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/price_paper_layout"
+            android:layout_below="@id/essential_paper">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/price"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold|italic"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                            />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:id="@+id/price_paper"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/company_layout_paper"
+            android:layout_below="@id/price_paper_layout">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/title_request"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold|italic"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:id="@+id/company_name_paper"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle_for_layout"
+            android:layout_below="@id/company_layout_paper"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_paper_layout">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/title_description"
+                android:paddingLeft="20dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+
+                android:paddingLeft="40dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="40dp"
+                android:textStyle="bold"
+                android:id="@+id/description_paper"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_request_job"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/description_paper_layout"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:onClick="submitForJob"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+</ScrollView>
+

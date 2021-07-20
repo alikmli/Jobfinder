@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/userinfo_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:text="Alikamalid.o.t93@gmail.com"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/user_email"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/profile_edit"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@drawable/edit"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/user_email"
+                />
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_info"
+            android:layout_below="@id/user_email"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:id="@+id/user_info_edit"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0B053D"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_interest"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:id="@+id/user_info_interest"/>
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/interest"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/user_info_interest_img"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0B053D"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_tileline"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:id="@+id/user_info_timeline"/>
+        />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/timeline"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/user_info_timeline_img"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0B053D"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_for_plan"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:id="@+id/user_info_plan_t"/>
+        />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/plantutorial"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/user_info_plan_t_img"
+            />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0B053D"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_message"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:id="@+id/user_info_message"/>
+        />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/message"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/user_info_message_img"
+            />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0B053D"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_settings"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:id="@+id/user_info_setting"/>
+        />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/settings"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/user_info_setting_img"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0B053D"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_exit"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:id="@+id/user_info_exit"/>
+        />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/exit"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/user_info_exit_img"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#44425A"
+        android:layout_below="@id/userinfo_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+</LinearLayout>

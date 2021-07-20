@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/job_intro_layout"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_job_intro_layout">
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_layout_intro">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:id="@+id/title_intro"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/time_price"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:id="@+id/time_intro"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_below="@id/title_layout_intro"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emp_intro_layout">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:id="@+id/location_city_intro"/>
+
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:id="@+id/location_prev_intro"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="32dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/location"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_emp_below"
+            android:layout_below="@id/emp_intro_layout"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_job_layout"
+            android:layout_below="@id/line_emp_below">
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:id="@+id/layout_items_times"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+
+
+            </LinearLayout>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="32dp"
+                android:layout_gravity="left|center_vertical"
+                app:srcCompat="@drawable/time"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

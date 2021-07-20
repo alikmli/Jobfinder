@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/start_page"
+    android:gravity="center"
+    android:id="@+id/start_main_layout"
+    tools:context=".StartActivity">
+
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_weight="2"
+        android:src="@drawable/main_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/intro_img"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/start_intro"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/intro_id"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/intro_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/intro_btn"
+        android:text="@string/start_button_sign_up"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/intro_sigup"
+        android:onClick="singup"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/intro_sigup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/intro_btn"
+        android:text="@string/start_button_sign_in"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/intro_signin"
+        android:onClick="signin"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/intro_company"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@id/intro_signin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="companyLogin"
+        />
+
+</LinearLayout>
